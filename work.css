@@ -1,0 +1,126 @@
+body{
+    background-image: url(page1.jpg);
+    background-position: relative;
+    background-size: 355px;
+    margin: 0;
+    transition: transform 0.3s;
+
+
+}
+
+.logintext1{
+    position: relative;
+    top: 355px;
+}
+#sublist{
+    position: relative;
+    top: 355px;
+    
+}
+:root{
+    --modal-duration: 1s;
+
+}
+*{
+    box-sizing: border-box;
+
+}
+header{
+    background-color: rgb(191, 223, 141);
+    background-repeat: no-repeat;
+
+}   
+h1{
+    position: relative;
+    font-size: 2.5rem;
+}
+.cta-btn{
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: rgb(107, 203, 241);
+    outline: none;
+    border: none;
+    color: black;
+    position: relative;
+    left: 615px;
+    top: 250px;
+    cursor: pointer;
+
+}
+.modal-container{
+    position: relative;
+    bottom: 310px;
+    display: none;
+    width: 30%;
+    margin: 0 auto;
+}
+.modal{
+    background-color: rgb(162, 236, 127);
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(141, 13, 192);
+    overflow: hidden;
+    display: absolute;
+    top: 33%;
+    left: 35%;
+    transform: (-50%, -50%);
+    max-width: 100%;
+    width: 400px;
+    margin-bottom: 6px;
+}
+
+.show-modal {
+    display: block;
+}
+
+.close-modal {
+    display: none;
+}
+
+.modal-content{
+    padding: 7px;
+}
+.modal-form div{
+    margin: 10px 0;
+}
+.modal-form label{
+    display: block;
+}
+.modal-form .form-input{
+    padding: 8px;
+    width: 100%;
+    
+}
+.Close-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+}
+.submit-btn{
+    padding: 7px 30px;
+    font-weight: bolder;
+    background-color: rgb(213, 241, 111);
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+}
+.signup{
+    left: 120px;
+}
+/*JavaScript*/
+/* .modal-container .show-modal {
+    display: block;
+} */
+
+#contactlist{
+    position: relative;
+    top: 280px;
+    color: rgb(3, 7, 5);
+    background-color: rgb(191, 223, 141);
+}
+
+    
